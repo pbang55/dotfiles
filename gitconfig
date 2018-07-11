@@ -1,0 +1,8 @@
+[user]
+	name = Peter Bang
+	email = pbang55@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
