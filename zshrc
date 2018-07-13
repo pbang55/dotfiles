@@ -1,7 +1,13 @@
 export TERM="xterm-256color"
 
+export HISTFILE=~/.zsh_history
+export HISTSIZE=10000
+export SAVEHIST=10000
+
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+
 
 # Hombrew installation of zplug
 export ZPLUG_HOME=/usr/local/opt/zplug
