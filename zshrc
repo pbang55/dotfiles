@@ -1,6 +1,7 @@
 export TERM="xterm-256color"
 
-export PATH="/Users/pbang/miniconda3/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 export HISTFILE=~/.zsh_history
 export HISTSIZE=10000
@@ -20,6 +21,7 @@ zplug zsh-users/zsh-history-substring-search
 zplug zsh-users/zsh-completions
 zplug zsh-users/zsh-autosuggestions
 
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs anaconda)
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 
 # Install plugins if there are plugins that have not been installed
